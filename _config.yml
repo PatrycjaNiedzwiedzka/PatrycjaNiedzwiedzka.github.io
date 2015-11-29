@@ -1,2 +1,2 @@
-include:
-  - .nojekyll
+exclude:
+  - node_modules
