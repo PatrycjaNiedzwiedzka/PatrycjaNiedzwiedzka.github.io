@@ -1,8 +1,13 @@
-//sudo apt-get install nodejs-legacy
+//sudo apt-get installnodejs-legacy
 //sudo npm init
 //sudo npm install -g gulp
 //sudo npm install --save-dev gulp-shell lodash gulp browser-sync
 //And create a gulpfile.js with:
+
+//sudo npm install -g bower
+//sudo chown -R user:user /home/user/.config/configstore/
+//bower install bootstrap
+
 
 var gulp = require('gulp');
 var shell = require('gulp-shell');
