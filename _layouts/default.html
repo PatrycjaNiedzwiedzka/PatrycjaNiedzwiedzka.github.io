@@ -1,25 +1,83 @@
 <html>
 <head>
 	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/custom.css">
 </head>
+
 <body>
-	<nav>
-		<ul>
-			<li>
-				<a class="btn btn-default" role="button" href="/">home</a>
-			</li>
-			<li>
-				<a href="/about">about</a>
-			</li>
-			<li>
-				<a href="/contact">contact</a>
-			</li>
-		</ul>
-	</nav>
+  <section>
+    <nav class="navbar navbar-default top">
+  <div class="container-fluid">
+
+  
+  <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+  </div>
+    </nav>
+  
+</section>
+<h1>iFight</h1>
+
+<section>
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+</section>
+
+ <menu class="col-sm-4">
+   
+   <nav class="navbar navbar-default">
+  <div class="">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav nav-pills nav-stacked">
+         <li class="active"><a href="/">Home</a></li>
+         <li><a href="/bjj/index.html">Braziliaanse Jiu-Jitsu</a></li>
+         <li><a href="/mma/index.html">Mixed Martial Arts</a></li>
+         <li><a href="/worstelen/index.html">Worstelen</a></li>
+         <li><a href="/striking/index.html">Striking</a></li>
+         <li><a href="/ffw/index.html">Fight Fun for Women</a></li>
+         <li><a href="https://ken.be/contact/">Contact</a></li> 
+      </ul>    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+ </menu>
+
+    
+
+<div class="col-sm-8">
 	<main>	
     {{ content }}
 	</main>
-	<footer>This is footerke</footer>
+</div>
+	
+
+	<footer> 
+     <p class="footer-background">iFight - Vechtsporten</p>
+        <div class="col-sm-12">
+            <p style="text-align:center;">Copyright © vzw Ken's Place</p>
+        </div>    
+    </footer>
+	</body>
 	
 	<script src="/bower_components/jquery/dist/jquery.min.js" ></script>
 	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" ></script>

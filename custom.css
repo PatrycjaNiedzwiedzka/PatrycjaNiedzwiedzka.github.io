@@ -1,0 +1,31 @@
+body {background-color:black;color: white;}
+
+
+.nav a {color:black;}
+
+.nav-pills>li>a {border-radius: 0px;}
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover {background-color:#F0B414;}
+
+.navbar.navbar-default.top {background-color:#F0B414;}
+
+.navbar.navbar-default {background-image: none;border-radius: 0px;}
+	
+.navbar {border:none;}
+
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;}
+
+.navbar-form.navbar-right {border:none;}
+
+.breadcrumb {   
+    background-color: #F0B414;
+    border-radius: 0px;}
+	
+.breadcrumb a {color:white;}
+
+.footer-background {background-color: #F0B414;margin: 0px;}
